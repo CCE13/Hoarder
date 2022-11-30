@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &9158077283368864871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9158077283368864869}
+  - component: {fileID: 9158077283368864870}
+  m_Layer: 0
+  m_Name: ObjPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9158077283368864869
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9158077283368864871}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.5298939, y: 19.79422, z: -11.23181}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &9158077283368864870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9158077283368864871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b2ef6fdab916d44e9ee0fe6feb62164, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arrowPool: []
+  enemyProjectilePool: []
+  enemyMeleePool: []
+  enemyRangedPool: []
+  popUpPool: []
+  popUp: {fileID: 8683999855974149494, guid: 51f0176496cf3e24c98e0c1de8894aea, type: 3}
+  arrow: {fileID: 1300521925988740047, guid: 1914d1241b00b1c4282ae2de48943670, type: 3}
+  enemyProj: {fileID: 7095608656053393708, guid: ff4bbbe68c2cdca46b9734ea9f47f4dc, type: 3}
+  meleeEnemy: {fileID: 1302325660441795792, guid: 64161aac6825e0644a27eba76ef658df, type: 3}
+  rangedEnemy: {fileID: 1302325660441795792, guid: a502b848949ec364399adece6e6e2fcf, type: 3}
+  amountToPool: 10
+  amountOfArrows: 10

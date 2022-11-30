@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f06ef70cba029c348b7413da68ea45c1, type: 3}
+  m_Name: ModifierCollectableHolders
+  m_EditorClassIdentifier: 
+  commonModifiers:
+  - {fileID: 3133030662948674663, guid: 4bccc056f5e443440b6c1a34f23bf5d7, type: 3}
+  - {fileID: 6478923262896643795, guid: cf980fa83b70c1f4a95bba875f6a1487, type: 3}
+  - {fileID: 8504144065256597884, guid: df458092f0d391541a6f4be064a445a9, type: 3}
+  - {fileID: 1654040616707034583, guid: 6eb29380e14d28448b85a58c41b2bdb7, type: 3}
+  - {fileID: 602697421749686143, guid: b36c1bb3b66cedd4c90aff82db064e2e, type: 3}
+  - {fileID: 5513983266587021682, guid: 54cc8fee81280c34a8264a33ac9f29e2, type: 3}
+  - {fileID: 9053480701524589707, guid: c67fc70302f02ba49b6ee48e33222b57, type: 3}
+  - {fileID: 5999137588227562897, guid: 264b05ceadc5fd74680aa2d2ee0df551, type: 3}
+  - {fileID: 5999137588227562897, guid: b013f9dd5c1ced340a4fec71eace609c, type: 3}
+  - {fileID: 5999137588227562897, guid: 8e05ee8c3bb07a54eb6583d4d27888d4, type: 3}
+  rareModifiers:
+  - {fileID: 91107503781757867, guid: 3149d6067c243654f9a825c4e240e1b1, type: 3}
+  - {fileID: 4732904389482886319, guid: d512e48032b951647978fa92588ebdec, type: 3}
+  - {fileID: 6916589812660658548, guid: c39f321e574dcd84a8325e14c646c21b, type: 3}
+  - {fileID: 270640799054513672, guid: d71121df6fb44684396e156df1412935, type: 3}
+  - {fileID: 2698671009900094533, guid: bf90b983fae61734aa86ee82195df964, type: 3}
+  - {fileID: 8690455209583387759, guid: d7180763d6851eb429c7cab8444d579a, type: 3}
+  - {fileID: 1892078505130296798, guid: d743e856938d2b44a9cc121f3caa525b, type: 3}
+  - {fileID: 1028214031645215879, guid: 90db7a55a67194c43b9354eab4c53ea9, type: 3}
+  - {fileID: 1028214031645215879, guid: c436738fb5c70534fa3c5c974f0bcb01, type: 3}
+  - {fileID: 1028214031645215879, guid: 5986a079d6ec43a478d9ae083df25862, type: 3}
+  legendaryModifiers:
+  - {fileID: 7893404080535077855, guid: 4e9b6cd030f2c6b4cae7c66e4e761410, type: 3}
+  - {fileID: 3322992374357065436, guid: c48c836a623889b4bb35dd31122a4b77, type: 3}
+  - {fileID: 8852856305985210341, guid: 4fd5484595c3bcc4fbf9d4ae67648f7e, type: 3}
+  - {fileID: 3629067685046379363, guid: f5d15b2c288969c41a9f068e5c917a95, type: 3}
+  - {fileID: 7322356727447516883, guid: 0a6b616a35c6db345a94dfbd617a8188, type: 3}
+  - {fileID: 8749794473447392932, guid: 537d5a74b1eaa134ab736ffc92621c66, type: 3}
+  - {fileID: 6810318911530066436, guid: 94b668d2d942b9b4abcbf855a07c9581, type: 3}
+  - {fileID: 1941154252468366648, guid: 46975659e024cd943ab24b6aaeb7157c, type: 3}
+  - {fileID: 1941154252468366648, guid: 7b6a11011b11d9e46b14eda2bf773b70, type: 3}
+  - {fileID: 1941154252468366648, guid: d288ff8b53428a44eb77b0e3c8b09e99, type: 3}
+  commonCoinCost: 30
+  rareCoinCost: 40
+  legendaryCoinCost: 100

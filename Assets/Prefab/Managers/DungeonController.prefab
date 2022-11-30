@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3426213013513013391
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3426213013513013385}
+  - component: {fileID: 3426213013513013390}
+  - component: {fileID: 3426213013513013384}
+  m_Layer: 0
+  m_Name: DungeonController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3426213013513013385
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3426213013513013391}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3426213013513013390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3426213013513013391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd37b0ebbb1a95e4d9733e825e6a5da6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSet:
+  - {fileID: 4223356298170780561, guid: 92e7ef21c4cc0234fb8b75d4724af8f1, type: 3}
+  - {fileID: 4223356298170780561, guid: ba8b9acfbbcebd5428e488f8da08404b, type: 3}
+  - {fileID: 4223356298170780561, guid: c60f95199b708d340af763298e031932, type: 3}
+  - {fileID: 4223356298170780561, guid: dfbbd8bbac710bd4eb726a750b7d4826, type: 3}
+  monuments:
+  - {fileID: 9104610462925418756, guid: 5b56ed2d14ae3114b80a40b64c3841af, type: 3}
+  - {fileID: 9104610462925418756, guid: efb4be9d0decf9244a06aacc8d648141, type: 3}
+  - {fileID: 9104610462925418756, guid: 5e3b52b88882d854595216dda0b8ace3, type: 3}
+  - {fileID: 9104610462925418756, guid: 1a4c5e57e11e9a14cb375ed3482cd26c, type: 3}
+  - {fileID: 9104610462925418756, guid: 5942965c11ace7f4bb0a648eff29c552, type: 3}
+  bossTile: {fileID: 8752193731817882117, guid: e2ac3d2878acd914884f1479effa3262, type: 3}
+  enviromentalProps:
+  - {fileID: 3899201557787721266, guid: d9c262c13537b964e80c11e35fd752af, type: 3}
+  - {fileID: 4038205303479504638, guid: 42e27f7481dbacb4ba4b2e2001261949, type: 3}
+  - {fileID: 5529541997278899865, guid: 2fc8cbdabb0bf094b92aa667a696f5cb, type: 3}
+  chest: {fileID: 1743311323640652945, guid: c91d78415f7556141b801a55e121b744, type: 3}
+  player1: {fileID: 0}
+  player2: {fileID: 0}
+  enemysToSpawn: 1
+  tilesToGenerate: 20
+  tilesBuffer: 3
+  monumentRate: 11
+  restTileRate: 15
+  tilesGenerated: []
+  rootTile: {fileID: 0}
+  tilesExplored: 0
+  startGame: 0
+  _failSafeCheckDuration: 3
+  _bossRoomSpawnerID: 1
+  difficultyLevel: 0
+  spawnLocations: []
+--- !u!114 &3426213013513013384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3426213013513013391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_AgentTypeID: 0
+  m_CollectObjects: 0
+  m_Size: {x: 10, y: 10, z: 10}
+  m_Center: {x: 0, y: 2, z: 0}
+  m_LayerMask:
+    serializedVersion: 2
+    m_Bits: 192
+  m_UseGeometry: 1
+  m_DefaultArea: 0
+  m_IgnoreNavMeshAgent: 1
+  m_IgnoreNavMeshObstacle: 1
+  m_OverrideTileSize: 0
+  m_TileSize: 256
+  m_OverrideVoxelSize: 0
+  m_VoxelSize: 0.16666667
+  m_BuildHeightMesh: 0
+  m_NavMeshData: {fileID: 0}

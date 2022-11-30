@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f3780836a148f64588aed1730cce95d, type: 3}
+  m_Name: Pen Knife(DOT)
+  m_EditorClassIdentifier: 
+  modifierType: 0
+  spriteToShow: {fileID: 1524536002, guid: 627daa236e8e0664fb5d8c7436cb991b, type: 3}
+  damageToAdd: 0
+  critChanceToAdd: 0
+  healthToRegenToAdd: 0
+  healthAmountToGain: 0
+  lifeStealToAdd: 0
+  modifierDescription: '|| Pen Knife ||
+
+    || I''ve become so numb. ||
+
+    ||
+    Deals 4 Damage/s ||'
+  critMultiplierToAdd: 0
+  DO_damageToDeal: 4
+  DO_duration: 3
+  DO_rateTime: 1
+  DO_particleEffect: {fileID: 2142905988040980078, guid: 1046df8da99a52747bf9920385c53b28, type: 3}
+  explosionRadius: 0
+  explosionVelocity: 0
+  explosiveDamage: 0

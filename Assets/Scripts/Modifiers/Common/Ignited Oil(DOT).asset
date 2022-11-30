@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f3780836a148f64588aed1730cce95d, type: 3}
+  m_Name: Ignited Oil(DOT)
+  m_EditorClassIdentifier: 
+  modifierType: 0
+  spriteToShow: {fileID: -1844862935, guid: 627daa236e8e0664fb5d8c7436cb991b, type: 3}
+  damageToAdd: 0
+  critChanceToAdd: 0
+  healthToRegenToAdd: 0
+  healthAmountToGain: 0
+  lifeStealToAdd: 0
+  modifierDescription: "|| Ignited Oil ||\n|| Hot hot hot! || \n|| Deals 2 Damage/s
+    ||"
+  critMultiplierToAdd: 0
+  DO_damageToDeal: 2
+  DO_duration: 5
+  DO_rateTime: 1
+  DO_particleEffect: {fileID: 7287461937572741969, guid: eb9faf040a4d88349bcc4a3454e6cfff, type: 3}
+  explosionRadius: 0
+  explosionVelocity: 0
+  explosiveDamage: 0

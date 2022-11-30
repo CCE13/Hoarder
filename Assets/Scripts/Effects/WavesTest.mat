@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: WavesTest
+  m_Shader: {fileID: 4800000, guid: 0bd2e5a72a3da0a419e6655ac4b54344, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs: []
+    m_Ints: []
+    m_Floats:
+    - _ColorEnd: 1
+    - _CurveStrength: 0.121
+    - _FadeYLength: 0.197
+    - _WaveAmp: 0.1
+    m_Colors:
+    - _ColorA: {r: 0.4669811, g: 0.79356486, b: 1, a: 1}
+    - _ColorB: {r: 0.5707547, g: 0.98788786, b: 1, a: 1}
+    - _ColorC: {r: 0.5235849, g: 0.82288295, b: 1, a: 1}
+  m_BuildTextureStacks: []

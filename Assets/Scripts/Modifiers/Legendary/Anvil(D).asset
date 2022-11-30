@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f3780836a148f64588aed1730cce95d, type: 3}
+  m_Name: Anvil(D)
+  m_EditorClassIdentifier: 
+  modifierType: 1
+  spriteToShow: {fileID: 719959958, guid: 627daa236e8e0664fb5d8c7436cb991b, type: 3}
+  damageToAdd: 50
+  critChanceToAdd: 0
+  healthToRegenToAdd: 0
+  healthAmountToGain: 0
+  lifeStealToAdd: 0
+  modifierDescription: '|| Anvil ||
+
+    || How do you even carry this around? ||
+
+    ||
+    +50 Damage ||'
+  critMultiplierToAdd: 0
+  DO_damageToDeal: 0
+  DO_duration: 0
+  DO_rateTime: 0
+  DO_particleEffect: {fileID: 0}
+  explosionRadius: 0
+  explosionVelocity: 0
+  explosiveDamage: 0
